@@ -17,7 +17,7 @@ function App() {
       <header className="App-header">
         <h2 style={{fontFamily:"verdana", fontSize: '40px'}}>Sentiment Analysis</h2>
         <input value={phrase} onChange={e => setPhrase(e.target.value)}
-          style={{ padding: '10px', fontSize: '10px', width: '90%', borderRadius: '20px', margin: '5rem'}} />
+          style={{ padding: '10px', fontSize: '100px', width: '90%', borderRadius: '20px', margin: '5rem'}} />
         {
           sentimentScore ?
             sentimentScore.score === 0 ?
